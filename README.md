@@ -4,7 +4,6 @@ Weather App เป็นแอปพลิเคชันสำหรับต�
 
 [🔗 ทดลองใช้งาน Weather App](https://mindenry.github.io/WeatherWeb/)
 
-
 ## 🚀 คุณสมบัติเด่น
 - 🔍 **ค้นหาสภาพอากาศ** ได้โดยพิมพ์ชื่อเมืองที่ต้องการ
 - 📍 **ใช้ตำแหน่งปัจจุบัน** เพื่อดูพยากรณ์อากาศได้ทันที
@@ -24,7 +23,7 @@ Weather App เป็นแอปพลิเคชันสำหรับต�
 3. สนุกกับการตรวจสอบสภาพอากาศได้เลย! 🌍🌤
 
 ## 📸 ภาพตัวอย่าง
-![Weather App Screenshot](weatherapp.png)
+[![Weather App Screenshot](weatherapp.png)](https://mindenry.github.io/WeatherWeb/)
 
 ## 💡 การปรับปรุงในอนาคต
 - เพิ่มการแสดงพยากรณ์รายชั่วโมง
