@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สภาพอากาศวันนี้</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search-box">
+            <input type="text" placeholder="ค้นหาชื่อเมือง..." spellcheck="false">
+            <button>
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+        
+        <div class="loading">
+            <div class="spinner"></div>
+            <p>กำลังโหลดข้อมูล</p>
+        </div>
+        
+        <div class="error">
+            <i class="fas fa-exclamation-circle"></i>
+            <p>ไม่พบข้อมูลเมืองนี้ กรุณาลองใหม่อีกครั้ง</p>
+        </div>
+        
+        <div class="weather">
+            <div class="city-info">
+                <h2 class="city">กรุงเทพฯ</h2>
+                <div class="date-time">
+                    <span id="current-date">วันศุกร์ 11 มีนาคม 2025</span>
+                </div>
+            </div>
+
+            <div class="weather-main">
+                <div class="weather-icon">
+                    <img src="https://openweathermap.org/img/wn/10d@4x.png" alt="Weather Icon">
+                </div>
+                <div class="temp-container">
+                    <h1 class="temp">32°C</h1>
+                    <p class="weather-description">ท้องฟ้าแจ่มใส</p>
+                </div>
+            </div>
+
+            <div class="extras">
+                <div class="feels-like">
+                    <i class="fas fa-thermometer-half"></i>
+                    <p>รู้สึกเหมือน: <span>34°C</span></p>
+                </div>
+                <div class="temp-min-max">
+                    <i class="fas fa-temperature-low"></i>
+                    <p>ต่ำสุด-สูงสุด: <span>30°C / 35°C</span></p>
+                </div>
+            </div>
+
+            <div class="details">
+                <div class="col">
+                    <i class="fas fa-water"></i>
+                    <div>
+                        <p class="humidity">60%</p>
+                        <p>ความชื้น</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <i class="fas fa-wind"></i>
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>ความเร็วลม</p>
+                    </div>
+                </div>
+            </div>
+            
+            <h3 class="forecast-title">พยากรณ์อากาศ 5 วัน</h3>
+            <div class="forecast">
+                <!-- Forecast data will be inserted here by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
